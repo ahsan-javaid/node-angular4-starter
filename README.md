@@ -1,3 +1,6 @@
-# walnut-biglittlechef-backend
+# node js angular js cli starter kit
 
-walnut-biglittlechef-backend
+### 1. Built in login and signup
+### 2. Admin panel to manage users
+### 3. Restfull APi's 
+
