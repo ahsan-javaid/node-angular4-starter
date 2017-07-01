@@ -1,0 +1,9 @@
+{
+  "apps": [{
+    "name": "biglittlechef",
+    "script": "server.js",
+    "env": {
+      "NODE_ENV": "development"
+    }
+  }]
+}

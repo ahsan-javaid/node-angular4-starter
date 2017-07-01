@@ -1,0 +1,40 @@
+{
+  "specialization": {
+  },
+  "middleware": {
+    "static": {
+      "module": {
+        "arguments": [
+          "path:./.build"
+        ]
+      }
+    },
+    "router": {
+      "module": {
+        "arguments": [
+          {
+            "directory": "path:./app/controllers"
+          }
+        ]
+      }
+    },
+    "authentication": {
+      "enabled": true,
+      "priority": 100,
+      "route": "\/api\/v1((?!$))((?!\/root\/))((?!\/updates))((?!\/users\/register))((?!\/users\/forgot-password))((?!\/users\/login))((?!\/users\/upload))((?!\/users\/social-login))((?!\/categories))((?!\/menu))*",
+      "module": {
+        "name": "path:./app/lib/auth"
+      }
+    }
+  },
+  "app": {
+    "url": "http://188.166.248.252:4567",
+    "jwtSecret": "thisisMySecret"
+  }
+  ,"sendGridkey":"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",
+  "cloudinary":{
+    "cloud_name": "du5v9u9by",
+    "api_key": "373593238178279",
+    "api_secret": "nqt2FY5pn210wJ4K4BoebOjYoeE"
+  }
+}

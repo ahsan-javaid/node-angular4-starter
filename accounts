@@ -1,0 +1,10 @@
+Cloudniary: kocakicun@dnsdeer.com
+password: kocakicun@dnsdeer.com
+
+mlab: kocakicun@dnsdeer.com
+pass: walnut@12345678
+username: walnut300
+
+
+db.copyDatabase('walnut-biglittlechef', 'walnut-biglittlechef', 'ds155811.mlab.com:55811', 'root', 'root')
+
